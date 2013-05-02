@@ -4,5 +4,5 @@
 
 for i in range(-100000, 100000):
     y = i ** 2 + i + 1
-    if y.is_prime():
+    if y.is_prime():        #Checks for primes
         print str(i) + " results in the prime number " + str(y)
